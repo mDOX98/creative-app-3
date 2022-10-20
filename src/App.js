@@ -366,7 +366,7 @@ let storeTitle = ""+
         <Headerbar activePage={this.state.page} page0fnc={this.page0} page1fnc={this.page1} page2fnc={this.page2}/>
         <div className="wrapper"><h3 className="death">{aboutTitle}</h3></div>
         <div className="text-block">
-          <h3>This is a sick proof of concept for a react app.  Took me longer then expected, but that's okay.  Here's the github link:</h3>
+          <h3>This is a sick proof of concept for a react app.  Took me longer then expected, but that's okay.  Here's the github link: <a href="https://github.com/mDOX98/creative-app-3.git">https://github.com/mDOX98/creative-app-3.git</a></h3>
           <h3></h3>
         </div>
         
@@ -381,6 +381,8 @@ function App() {
   return (
     <>
       <Game />
+      <br></br>
+      <p>https://github.com/mDOX98/creative-app-3.git</p>
     </>
   );
 }
