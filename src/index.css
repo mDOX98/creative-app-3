@@ -11,3 +11,178 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.hp{
+  color: red;
+}
+
+.dmg{
+  color: orange;
+}
+
+.armor{
+  color:gray;
+}
+
+.death{
+  
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+  font-size: 10pt;
+  font-family: "Courier New", Monospace;
+  white-space: pre;
+  align-items: center;
+  text-align: center;
+  font-size: 1vw;
+  display: block;
+}
+.death h3,h2,h1{
+  
+  text-align: center;
+  font-size: 4vw;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding: 0px 0px;
+  display: block;
+}
+
+
+
+
+
+.wrapper{
+  
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  
+  height: 1vh / 1vw;
+  width: 1vw/ 1vh;
+  display: block;
+}
+
+.player {
+  
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+
+  font-family: "Courier New", Monospace;
+  white-space: pre;
+  margin: 0px 0px ;
+  align-items: center;
+  text-align: center;
+  font-size: 4vw;
+  display: block;
+  
+}
+.player h3, h2, h1 p{
+  text-align: center;
+  font-size: 4vw;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding: 0px 0px;
+  display: block;
+}
+
+
+
+
+
+
+.roll-button {
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  font-size: 10pt;
+  font-family: "Courier New", Monospace;
+  white-space: pre;
+  align-items: center;
+  text-align: center;
+  font-size: 1vw;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.roll-button:hover{
+  color:red;
+}
+.roll-button:active{
+  background-color: black;
+  color: red;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li p {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 800px) {
+  .player h3, h2, h1{
+    font-size: 2vw;
+  }
+
+  .death h3, h2, h1{
+    font-size: 1.5vw;
+  }
+
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5vw;
+  }
+}
+
+
+
+.text-block{
+  display:block;
+  overflow:auto;
+  margin: 5% 20% 20% 20%;
+  
+  text-align: center;
+  font-size: 2vw;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
