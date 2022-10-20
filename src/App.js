@@ -35,6 +35,7 @@ class PlayerInfo {
       armor: Math.floor(Math.random() * 3)+1,
       dmgBonus: Math.floor(Math.random() * 6) + 1,
       dmgMin: Math.floor(Math.random() * 6)+1
+      
     }
     this.info.hpmax = this.info.hp
   }
@@ -192,9 +193,11 @@ class Game extends React.Component {
     super(props);
     let p0 = new PlayerInfo();
     p0.randomStats();
+    p0.info.name ="Player 1";
 
     let p1 = new PlayerInfo();
     p1.randomStats();
+    p0.info.name ="Player 2";
 
     this.players = [p0, p1];
     this.state = {};
