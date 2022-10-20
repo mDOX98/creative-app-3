@@ -197,7 +197,7 @@ class Game extends React.Component {
 
     let p1 = new PlayerInfo();
     p1.randomStats();
-    p0.info.name ="Player 2";
+    p1.info.name ="Player 2";
 
     this.players = [p0, p1];
     this.state = {};
@@ -231,8 +231,10 @@ class Game extends React.Component {
   }
   Reset(event){
     this.players[0].randomStats();
+    this.players[0].info.name="Player 1"
     this.players[1].randomStats();
     this.setState({gameinplay:true})
+    this.players[0].info.name="Player 2"
   }
 
   Turn(event) {
